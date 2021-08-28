@@ -8,6 +8,11 @@ defmodule MeuModulo do
         inspect(MyMath.soma(2, 2))
     end
 
+    def exibe_se_eh_par(numero) do
+        require Integer
+        puts("O número #{numero} é par? #{Integer.is_even(numero)}")
+    end
+
     def inspect(parametro) do
         puts("Começando a inspeção")
         puts(parametro)
