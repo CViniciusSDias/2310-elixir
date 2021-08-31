@@ -13,7 +13,7 @@ defmodule MeuModulo do
         puts("O número #{numero} é par? #{Integer.is_even(numero)}")
     end
 
-    def inspect(parametro) do
+    defp inspect(parametro) do
         puts("Começando a inspeção")
         puts(parametro)
         puts("Terminando a inspeção")
